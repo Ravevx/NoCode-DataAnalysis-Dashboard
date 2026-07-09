@@ -1,4 +1,4 @@
-# NoCode-DataAnalysis-Dashboard
+# NoCode-DataAnalysis-Studio
 
 > A no-code Streamlit app for **real pandas data analysis** - upload any dataset, edit it live, clean it, scale/encode it, visualize it, and export both the cleaned data *and* the equivalent Python code. All from a single UI, no Python required.
 
@@ -104,8 +104,8 @@ Every operation is stored as a step rather than mutating data directly. The work
 ## Installation
 
 ```bash
-git clone https://github.com/Ravevx/NoCode-DataAnalysis-Dashboard.git
-cd NoCode-DataAnalysis-Dashboard
+git clone https://github.com/Ravevx/NoCode-DataAnalysis-Studio.git
+cd NoCode-DataAnalysis-Studio
 
 conda create -n dash-env python=3.11
 conda activate dash-env
