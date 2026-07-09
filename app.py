@@ -377,8 +377,5 @@ with tab_export:
         data=excel_buffer.getvalue(),
         file_name="cleaned_data.xlsx",
         mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-<<<<<<< HEAD
     )
-=======
-    )
->>>>>>> 18f19b62a0248dbd55797fcfcd50e13ef67bc2ea
+
