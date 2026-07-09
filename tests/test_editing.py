@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import pandas as pd
 import pytest
 from transforms import editing
@@ -50,7 +50,7 @@ def test_apply_manual_edits():
     edited = df.copy()
     edited.loc[0, "a"] = 99
     out = editing.apply_manual_edits(df, edited)
-=======
+
 import pandas as pd
 import pytest
 from transforms import editing
@@ -102,5 +102,4 @@ def test_apply_manual_edits():
     edited = df.copy()
     edited.loc[0, "a"] = 99
     out = editing.apply_manual_edits(df, edited)
->>>>>>> 18f19b62a0248dbd55797fcfcd50e13ef67bc2ea
     assert out.loc[0, "a"] == 99

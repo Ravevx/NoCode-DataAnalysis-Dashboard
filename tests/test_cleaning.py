@@ -67,8 +67,6 @@ def test_change_dtype_datetime():
 def test_change_dtype_category():
     df = pd.DataFrame({"a": ["x", "y", "x"]})
     out = cleaning.change_dtype(df, "a", "category")
-<<<<<<< HEAD
+
     assert str(out["a"].dtype) == "category"
-=======
-    assert str(out["a"].dtype) == "category"
->>>>>>> 18f19b62a0248dbd55797fcfcd50e13ef67bc2ea
+

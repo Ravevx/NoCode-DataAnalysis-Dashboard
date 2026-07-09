@@ -71,8 +71,5 @@ def change_dtype(df: pd.DataFrame, col: str, dtype: str) -> pd.DataFrame:
         df[col] = df[col].astype(str)
     else:
         raise ValueError(f"Unknown dtype: {dtype}")
-<<<<<<< HEAD
     return df
-=======
-    return df
->>>>>>> 18f19b62a0248dbd55797fcfcd50e13ef67bc2ea
+

@@ -42,8 +42,7 @@ def filter_rows(df: pd.DataFrame, col: str, op: str, value) -> pd.DataFrame:
 
 def apply_manual_edits(df: pd.DataFrame, edited_df: pd.DataFrame) -> pd.DataFrame:
     """Accept edits made directly in st.data_editor as a full replacement."""
-<<<<<<< HEAD
+
     return edited_df.copy()
-=======
-    return edited_df.copy()
->>>>>>> 18f19b62a0248dbd55797fcfcd50e13ef67bc2ea
+
+

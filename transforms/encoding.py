@@ -13,8 +13,5 @@ def label_encode(df: pd.DataFrame, col: str) -> pd.DataFrame:
     df = df.copy()
     le = LabelEncoder()
     df[col] = le.fit_transform(df[col].astype(str))
-<<<<<<< HEAD
+
     return df
-=======
-    return df
->>>>>>> 18f19b62a0248dbd55797fcfcd50e13ef67bc2ea
