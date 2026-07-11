@@ -164,3 +164,8 @@ Then in your browser:
 ---
 
 Issues and pull requests are welcome. If you add a new transform, chart type, or export format, please update the tables above.
+
+##Future Work/ Looking for collaboration:
+1. adding more features( Outlier detection )
+2.UI
+3. Any other suggestions 
